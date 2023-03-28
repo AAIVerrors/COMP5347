@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Page</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#related-photos">Related Photos</a></li>
+				<li><a href="#reviews">Reviews</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="description">
+			<h1>Product Title</h1>
+			<img src="product-photo.jpg" alt="Product photo" onclick="showLargerPhoto(this)">
+			<p>Product description goes here.</p>
+		</section>
+		<section id="related-photos">
+			<h2>Related Photos</h2>
+			<div class="small-photos">
+				<img src="related-photo1.jpg" alt="Related photo 1" onclick="showLargerPhoto(this)">
+				<img src="related-photo2.jpg" alt="Related photo 2" onclick="showLargerPhoto(this)">
+				<img src="related-photo3.jpg" alt="Related photo 3" onclick="showLargerPhoto(this)">
+			</div>
+		</section>
+		<section id="reviews">
+			<h2>Reviews</h2>
+			<div class="review">
+				<h3>Review Title</h3>
+				<p>Review content goes here.</p>
+			</div>
+			<div class="review">
+				<h3>Second Review Title</h3>
+				<p>Second review content goes here.</p>
+			</div>
+		</section>
+	</main>
+	<script>
+		function showLargerPhoto(photo) {
+			// Code to show larger photo goes here
+		}
+	</script>
+</body>
+</html>
